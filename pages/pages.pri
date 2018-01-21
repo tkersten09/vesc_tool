@@ -48,7 +48,8 @@ HEADERS += \
     $$PWD/pagedataanalysis.h \
     $$PWD/pagemotorinfo.h \
     $$PWD/pagesetupcalculators.h \
-    $$PWD/pagesettings.h
+    $$PWD/pagesettings.h \
+    $$PWD/pageappadcboost.h
 
 SOURCES += \
     $$PWD/pageconnection.cpp \
@@ -74,4 +75,5 @@ SOURCES += \
     $$PWD/pagedataanalysis.cpp \
     $$PWD/pagemotorinfo.cpp \
     $$PWD/pagesetupcalculators.cpp \
-    $$PWD/pagesettings.cpp
+    $$PWD/pagesettings.cpp \
+    $$PWD/pageappadcboost.cpp

@@ -910,6 +910,12 @@ void MainWindow::reloadPages()
     addPageItem(tr("ADC"), "://res/icons/Potentiometer-96.png",
                 "://res/icons/appconf.png", false, true);
 
+    mPageAppAdcBoost = new PageAppAdcBoost(this);
+    mPageAppAdcBoost->setVesc(mVesc);
+    ui->pageWidget->addWidget(mPageAppAdcBoost);
+    addPageItem(tr("ADC_BOOST"), "://res/icons/Potentiometer-96.png",
+                "://res/icons/appconf.png", false, true);
+
     mPageAppUart = new PageAppUart(this);
     mPageAppUart->setVesc(mVesc);
     ui->pageWidget->addWidget(mPageAppUart);

@@ -17,13 +17,13 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
     */
 
-#include "pageappadc.h"
-#include "ui_pageappadc.h"
+#include "pageappadcboost.h"
+#include "ui_pageappadcboost.h"
 #include "utility.h"
 
-PageAppAdc::PageAppAdc(QWidget *parent) :
+PageAppAdcBoost::PageAppAdcBoost(QWidget *parent) :
     QWidget(parent),
-    ui(new Ui::PageAppAdc)
+    ui(new Ui::PageAppAdcBoost)
 {
     ui->setupUi(this);
     layout()->setContentsMargins(0, 0, 0, 0);
@@ -37,17 +37,17 @@ PageAppAdc::PageAppAdc(QWidget *parent) :
     ui->throttlePlot->axisRect()->insetLayout()->setInsetAlignment(0, Qt::AlignRight|Qt::AlignBottom);
 }
 
-PageAppAdc::~PageAppAdc()
+PageAppAdcBoost::~PageAppAdcBoost()
 {
     delete ui;
 }
 
-VescInterface *PageAppAdc::vesc() const
+VescInterface *PageAppAdcBoost::vesc() const
 {
     return mVesc;
 }
 
-void PageAppAdc::setVesc(VescInterface *vesc)
+void PageAppAdcBoost::setVesc(VescInterface *vesc)
 {
     mVesc = vesc;
 
@@ -60,7 +60,6 @@ void PageAppAdc::setVesc(VescInterface *vesc)
         ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_conf.update_rate_hz");
         ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_conf.ramp_time_pos");
         ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_conf.ramp_time_neg");
-        ui->generalTab->addRowSeparator(tr("Boost Settings"));
         ui->generalTab->addRowSeparator(tr("Multiple VESCs over CAN-bus"));
         ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_conf.multi_esc");
         ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_conf.tc");
@@ -93,7 +92,7 @@ void PageAppAdc::setVesc(VescInterface *vesc)
     }
 }
 
-void PageAppAdc::paramChangedDouble(QObject *src, QString name, double newParam)
+void PageAppAdcBoost::paramChangedDouble(QObject *src, QString name, double newParam)
 {
     (void)src;
     (void)newParam;
@@ -116,7 +115,7 @@ void PageAppAdc::paramChangedDouble(QObject *src, QString name, double newParam)
     }
 }
 
-void PageAppAdc::paramChangedEnum(QObject *src, QString name, int newParam)
+void PageAppAdcBoost::paramChangedEnum(QObject *src, QString name, int newParam)
 {
     (void)src;
     (void)newParam;
