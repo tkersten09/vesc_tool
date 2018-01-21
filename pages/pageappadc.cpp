@@ -76,6 +76,7 @@ void PageAppAdc::setVesc(VescInterface *vesc)
         ui->mappingTab->addParamRow(mVesc->appConfig(), "app_adc_conf.voltage2_end");
         ui->mappingTab->addParamRow(mVesc->appConfig(), "app_adc_conf.voltage2_inverted");
 
+
         ui->throttleCurveTab->addParamRow(mVesc->appConfig(), "app_adc_conf.throttle_exp");
         ui->throttleCurveTab->addParamRow(mVesc->appConfig(), "app_adc_conf.throttle_exp_brake");
         ui->throttleCurveTab->addParamRow(mVesc->appConfig(), "app_adc_conf.throttle_exp_mode");
