@@ -331,10 +331,10 @@ p, li { white-space: pre-wrap; }
             <maxDouble>1</maxDouble>
             <minDouble>0</minDouble>
             <showDisplay>1</showDisplay>
-            <stepDouble>0.01</stepDouble>
+            <stepDouble>0.5</stepDouble>
             <valDouble>0.9</valDouble>
             <vTxDoubleScale>1e+6</vTxDoubleScale>
-            <suffix>%</suffix>
+            <suffix> %</suffix>
             <vTx>9</vTx>
         </l_duty_start>
         <l_max_erpm_fbrake>
