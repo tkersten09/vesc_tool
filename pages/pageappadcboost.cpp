@@ -52,38 +52,39 @@ void PageAppAdcBoost::setVesc(VescInterface *vesc)
     mVesc = vesc;
 
     if (mVesc) {
-        ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_conf.ctrl_type");
-        ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_conf.use_filter");
-        ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_conf.safe_start");
-        ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_conf.cc_button_inverted");
-        ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_conf.rev_button_inverted");
-        ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_conf.update_rate_hz");
-        ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_conf.ramp_time_pos");
-        ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_conf.ramp_time_neg");
+        ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_boost_conf.ctrl_type");
+        ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_boost_conf.use_filter");
+        ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_boost_conf.safe_start");
+        ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_boost_conf.cc_button_inverted");
+        ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_boost_conf.rev_button_inverted");
+        ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_boost_conf.update_rate_hz");
+        ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_boost_conf.ramp_time_pos");
+        ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_boost_conf.ramp_time_neg");
+
         ui->generalTab->addRowSeparator(tr("Boost Settings"));
         ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_boost_conf.max_boost_time");
         ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_boost_conf.boost_start");
         ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_boost_conf.boost_cooldown_factor");
+
         ui->generalTab->addRowSeparator(tr("Multiple VESCs over CAN-bus"));
-        ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_conf.multi_esc");
-        ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_conf.tc");
-        ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_conf.tc_max_diff");
+        ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_boost_conf.multi_esc");
+        ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_boost_conf.tc");
+        ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_boost_conf.tc_max_diff");
+        ui->mappingTab->addParamRow(mVesc->appConfig(), "app_adc_boost_conf.hyst");
 
-        ui->mappingTab->addParamRow(mVesc->appConfig(), "app_adc_conf.hyst");
         ui->mappingTab->addRowSeparator(tr("ADC 1"));
-        ui->mappingTab->addParamRow(mVesc->appConfig(), "app_adc_conf.voltage_start");
-        ui->mappingTab->addParamRow(mVesc->appConfig(), "app_adc_conf.voltage_end");
-        ui->mappingTab->addParamRow(mVesc->appConfig(), "app_adc_conf.voltage_center");
-        ui->mappingTab->addParamRow(mVesc->appConfig(), "app_adc_conf.voltage_inverted");
-        ui->mappingTab->addRowSeparator(tr("ADC 2"));
-        ui->mappingTab->addParamRow(mVesc->appConfig(), "app_adc_conf.voltage2_start");
-        ui->mappingTab->addParamRow(mVesc->appConfig(), "app_adc_conf.voltage2_end");
-        ui->mappingTab->addParamRow(mVesc->appConfig(), "app_adc_conf.voltage2_inverted");
+        ui->mappingTab->addParamRow(mVesc->appConfig(), "app_adc_boost_conf.voltage_start");
+        ui->mappingTab->addParamRow(mVesc->appConfig(), "app_adc_boost_conf.voltage_end");
+        ui->mappingTab->addParamRow(mVesc->appConfig(), "app_adc_boost_conf.voltage_center");
+        ui->mappingTab->addParamRow(mVesc->appConfig(), "app_adc_boost_conf.voltage_inverted");
 
-        // some visible change
-        ui->throttleCurveTab->addParamRow(mVesc->appConfig(), "app_adc_conf.throttle_exp");
-        ui->throttleCurveTab->addParamRow(mVesc->appConfig(), "app_adc_conf.throttle_exp_brake");
-        ui->throttleCurveTab->addParamRow(mVesc->appConfig(), "app_adc_conf.throttle_exp_mode");
+        ui->mappingTab->addRowSeparator(tr("ADC 2"));
+        ui->mappingTab->addParamRow(mVesc->appConfig(), "app_adc_boost_conf.voltage2_start");
+        ui->mappingTab->addParamRow(mVesc->appConfig(), "app_adc_boost_conf.voltage2_end");
+        ui->mappingTab->addParamRow(mVesc->appConfig(), "app_adc_boost_conf.voltage2_inverted");
+        ui->throttleCurveTab->addParamRow(mVesc->appConfig(), "app_adc_boost_conf.throttle_exp");
+        ui->throttleCurveTab->addParamRow(mVesc->appConfig(), "app_adc_boost_conf.throttle_exp_brake");
+        ui->throttleCurveTab->addParamRow(mVesc->appConfig(), "app_adc_boost_conf.throttle_exp_mode");
 
         ui->adcMap->setVesc(mVesc);
 
@@ -92,7 +93,7 @@ void PageAppAdcBoost::setVesc(VescInterface *vesc)
         connect(mVesc->appConfig(), SIGNAL(paramChangedEnum(QObject*,QString,int)),
                 this, SLOT(paramChangedEnum(QObject*,QString,int)));
 
-        paramChangedEnum(0, "app_adc_conf.throttle_exp_mode", 0);
+        paramChangedEnum(0, "app_adc_boost_conf.throttle_exp_mode", 0);
     }
 }
 
@@ -101,10 +102,10 @@ void PageAppAdcBoost::paramChangedDouble(QObject *src, QString name, double newP
     (void)src;
     (void)newParam;
 
-    if (name == "app_adc_conf.throttle_exp" || name == "app_adc_conf.throttle_exp_brake") {
-        int mode = mVesc->appConfig()->getParamEnum("app_adc_conf.throttle_exp_mode");
-        float val_acc = mVesc->appConfig()->getParamDouble("app_adc_conf.throttle_exp");
-        float val_brake = mVesc->appConfig()->getParamDouble("app_adc_conf.throttle_exp_brake");
+    if (name == "app_adc_boost_conf.throttle_exp" || name == "app_adc_boost_conf.throttle_exp_brake") {
+        int mode = mVesc->appConfig()->getParamEnum("app_adc_boost_conf.throttle_exp_mode");
+        float val_acc = mVesc->appConfig()->getParamDouble("app_adc_boost_conf.throttle_exp");
+        float val_brake = mVesc->appConfig()->getParamDouble("app_adc_boost_conf.throttle_exp_brake");
 
         QVector<double> x;
         QVector<double> y;
@@ -124,7 +125,7 @@ void PageAppAdcBoost::paramChangedEnum(QObject *src, QString name, int newParam)
     (void)src;
     (void)newParam;
 
-    if (name == "app_adc_conf.throttle_exp_mode") {
-        paramChangedDouble(0, "app_adc_conf.throttle_exp", 0.0);
+    if (name == "app_adc_boost_conf.throttle_exp_mode") {
+        paramChangedDouble(0, "app_adc_boost_conf.throttle_exp", 0.0);
     }
 }
