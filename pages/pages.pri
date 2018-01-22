@@ -9,6 +9,7 @@ FORMS += \
     $$PWD/pagecontrollers.ui \
     $$PWD/pageappppm.ui \
     $$PWD/pageappadc.ui \
+    $$PWD/pageappadcboost.ui \
     $$PWD/pageappuart.ui \
     $$PWD/pageappnunchuk.ui \
     $$PWD/pageappnrf.ui \

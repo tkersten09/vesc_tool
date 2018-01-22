@@ -60,6 +60,7 @@ void PageAppAdcBoost::setVesc(VescInterface *vesc)
         ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_conf.update_rate_hz");
         ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_conf.ramp_time_pos");
         ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_conf.ramp_time_neg");
+         ui->generalTab->addRowSeparator(tr("Boost Settings"));
         ui->generalTab->addRowSeparator(tr("Multiple VESCs over CAN-bus"));
         ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_conf.multi_esc");
         ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_conf.tc");
