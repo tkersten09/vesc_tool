@@ -56,7 +56,7 @@ void PageMotor::setVesc(VescInterface *vesc)
         ui->currentTab->addParamRow(mVesc->mcConfig(), "l_current_min");
         ui->currentTab->addParamRow(mVesc->mcConfig(), "l_abs_current_max");
         ui->currentTab->addParamRow(mVesc->mcConfig(), "l_slow_abs_current");
-        ui->currentTab->addRowSeparator(tr("Boost mode"));
+        ui->currentTab->addRowSeparator(tr("Boost Settings"));
         ui->currentTab->addParamRow(mVesc->mcConfig(), "l_boost_current");
         ui->currentTab->addParamRow(mVesc->mcConfig(), "max_boost_time");
         ui->currentTab->addParamRow(mVesc->mcConfig(), "boost_cooldown_time");
