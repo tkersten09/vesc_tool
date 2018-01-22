@@ -562,72 +562,6 @@ p, li { white-space: pre-wrap; }
             <enumNames>PID Speed Reverse Center</enumNames>
             <enumNames>PID Speed Reverse Button</enumNames>
         </app_adc_conf.ctrl_type>
-        <app_adc_boost_conf.ctrl_type>
-            <longName>Control Type</longName>
-            <type>4</type>
-            <transmittable>1</transmittable>
-            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; ; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Off&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;The output is switched off regardless of the input.&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Current&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Current control. The output is off when the input is at minimum.&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Current Reverse Center&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Current control. The output is off when the input is centered. Input less than center brakes until the motor stops, at which point it it starts in the reverse direction.&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Current Reverse Button&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Current control with a button for reversing the throttle. The output is off when the input is at minimum.&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Current Reverse ADC2 Brake Button&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Current control with a button for reversing the throttle. The output is off when the input is at minimum. The second ADC channel acs as a brake.&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Current No Reverse Brake Center&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Current control. The output is off when the input is centered.  Input less than center brakes until the motor stops, but not further.&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Current No Reverse Brake Button&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Current control with a button for turning the throttle into a brake. The output is off when the input is at minimum.&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Current No Reverse Brake ADC2&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Current control with one separate throttle connected to ADC2 for braking.&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Duty Cycle&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Duty cycle control. The output is off when the input is at minimum.&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Duty Cycle Reverse Center&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Current control. The output is off when the input is centered. Input less than center gives negative duty cycle.&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Duty Cycle Reverse Button&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Duty cycle control with a button on UART RX for inverting the throttle. The output is off when the input is at minimum.&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;PID Speed&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;PID speed control. The speed setpoint is mapped between 0 and the configured maximum motor speed limit.&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;PID Speed Reverse Center&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;PID speed control. The output is mapped between the minimum and maximum motor speed limits. Throttle center corresponds to 0 speed.&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;PID Speed Reverse Button&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;PID speed control with a button for reversing the throttle. The speed setpoint is mapped between 0 and the configured maximum motor speed limit, or between 0 and the minimum motor speed limit when the UART RX input is high.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
-            <cDefine>APPCONF_ADC_BOOST_CTRL_TYPE</cDefine>
-            <valInt>0</valInt>
-            <enumNames>Off</enumNames>
-            <enumNames>Current</enumNames>
-            <enumNames>Current Reverse Center</enumNames>
-            <enumNames>Current Reverse Button</enumNames>
-            <enumNames>Current Reverse ADC2 Brake Button</enumNames>
-            <enumNames>Current No Reverse Brake Center</enumNames>
-            <enumNames>Current No Reverse Brake Button</enumNames>
-            <enumNames>Current No Reverse Brake ADC2</enumNames>
-            <enumNames>Duty Cycle</enumNames>
-            <enumNames>Duty Cycle Reverse Center</enumNames>
-            <enumNames>Duty Cycle Reverse Button</enumNames>
-            <enumNames>PID Speed</enumNames>
-            <enumNames>PID Speed Reverse Center</enumNames>
-            <enumNames>PID Speed Reverse Button</enumNames>
-        </app_adc_boost_conf.ctrl_type>
         <app_adc_conf.hyst>
             <longName>Input Deadband</longName>
             <type>1</type>
@@ -650,28 +584,6 @@ p, li { white-space: pre-wrap; }
             <suffix> %</suffix>
             <vTx>9</vTx>
         </app_adc_conf.hyst>
-        <app_adc_boost_conf.hyst>
-            <longName>Input Deadband</longName>
-            <type>1</type>
-            <transmittable>1</transmittable>
-            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; ; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;Deadband region for the input.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
-            <cDefine>APPCONF_ADC_BOOST_HYST</cDefine>
-            <editorDecimalsDouble>0</editorDecimalsDouble>
-            <editorScale>100</editorScale>
-            <editAsPercentage>0</editAsPercentage>
-            <maxDouble>1</maxDouble>
-            <minDouble>0</minDouble>
-            <showDisplay>1</showDisplay>
-            <stepDouble>1</stepDouble>
-            <valDouble>0.15</valDouble>
-            <vTxDoubleScale>1000</vTxDoubleScale>
-            <suffix> %</suffix>
-            <vTx>9</vTx>
-        </app_adc_boost_conf.hyst>
         <app_adc_conf.voltage_start>
             <longName>ADC1 Min Voltage</longName>
             <type>1</type>
@@ -694,28 +606,6 @@ p, li { white-space: pre-wrap; }
             <suffix> V</suffix>
             <vTx>9</vTx>
         </app_adc_conf.voltage_start>
-        <app_adc_boost_conf.voltage_start>
-            <longName>ADC1 Min Voltage</longName>
-            <type>1</type>
-            <transmittable>1</transmittable>
-            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; ; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu';&quot;&gt;Input voltage at the start of the throttle range for ADC1. Can be checked by enabling display and giving the minimum input. If &lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-weight:600;&quot;&gt;Control Type&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu';&quot;&gt; is set to off while doing that the motor won't turn.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
-            <cDefine>APPCONF_ADC_BOOST_VOLTAGE_START</cDefine>
-            <editorDecimalsDouble>2</editorDecimalsDouble>
-            <editorScale>1</editorScale>
-            <editAsPercentage>0</editAsPercentage>
-            <maxDouble>3.3</maxDouble>
-            <minDouble>0</minDouble>
-            <showDisplay>1</showDisplay>
-            <stepDouble>0.01</stepDouble>
-            <valDouble>0.9</valDouble>
-            <vTxDoubleScale>1000</vTxDoubleScale>
-            <suffix> V</suffix>
-            <vTx>9</vTx>
-        </app_adc_boost_conf.voltage_start>
         <app_adc_conf.voltage_end>
             <longName>ADC1 Max Voltage</longName>
             <type>1</type>
@@ -738,28 +628,6 @@ p, li { white-space: pre-wrap; }
             <suffix> V</suffix>
             <vTx>9</vTx>
         </app_adc_conf.voltage_end>
-        <app_adc_boost_conf.voltage_end>
-            <longName>ADC1 Max Voltage</longName>
-            <type>1</type>
-            <transmittable>1</transmittable>
-            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; ; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu';&quot;&gt;Input voltage at the end of the throttle range for ADC1. Can be checked by enabling display and giving the maximum input. If &lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-weight:600;&quot;&gt;Control Type&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu';&quot;&gt; is set to off while doing that the motor won't turn.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
-            <cDefine>APPCONF_ADC_BOOST_VOLTAGE_END</cDefine>
-            <editorDecimalsDouble>2</editorDecimalsDouble>
-            <editorScale>1</editorScale>
-            <editAsPercentage>0</editAsPercentage>
-            <maxDouble>3.3</maxDouble>
-            <minDouble>0</minDouble>
-            <showDisplay>1</showDisplay>
-            <stepDouble>0.01</stepDouble>
-            <valDouble>3</valDouble>
-            <vTxDoubleScale>1000</vTxDoubleScale>
-            <suffix> V</suffix>
-            <vTx>9</vTx>
-        </app_adc_boost_conf.voltage_end>
         <app_adc_conf.voltage_center>
             <longName>ADC1 Center Voltage</longName>
             <type>1</type>
@@ -784,30 +652,6 @@ p, li { white-space: pre-wrap; }
             <suffix> V</suffix>
             <vTx>9</vTx>
         </app_adc_conf.voltage_center>
-        <app_adc_boost_conf.voltage_center>
-            <longName>ADC1 Center Voltage</longName>
-            <type>1</type>
-            <transmittable>1</transmittable>
-            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; ; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu';&quot;&gt;Input voltage at the center of the throttle range for ADC1. Can be checked by enabling display and centering the input. If &lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-weight:600;&quot;&gt;Control Type&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu';&quot;&gt; is set to off while doing that the motor won't turn.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu';&quot;&gt;Notice that this parameter only is used for the contered control types. For the other types the voltage will always be mapped linearly between start and end.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
-            <cDefine>APPCONF_ADC_BOOST_VOLTAGE_CENTER</cDefine>
-            <editorDecimalsDouble>2</editorDecimalsDouble>
-            <editorScale>1</editorScale>
-            <editAsPercentage>0</editAsPercentage>
-            <maxDouble>3.3</maxDouble>
-            <minDouble>0</minDouble>
-            <showDisplay>1</showDisplay>
-            <stepDouble>0.01</stepDouble>
-            <valDouble>2</valDouble>
-            <vTxDoubleScale>1000</vTxDoubleScale>
-            <suffix> V</suffix>
-            <vTx>9</vTx>
-        </app_adc_boost_conf.voltage_center>
         <app_adc_conf.voltage2_start>
             <longName>ADC2 Min Voltage</longName>
             <type>1</type>
@@ -830,28 +674,6 @@ p, li { white-space: pre-wrap; }
             <suffix> V</suffix>
             <vTx>9</vTx>
         </app_adc_conf.voltage2_start>
-        <app_adc_boost_conf.voltage2_start>
-            <longName>ADC2 Min Voltage</longName>
-            <type>1</type>
-            <transmittable>1</transmittable>
-            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; ; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu';&quot;&gt;Input voltage at the start of the throttle range for ADC2. Can be checked by enabling display and giving the minimum input. If &lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-weight:600;&quot;&gt;Control Type&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu';&quot;&gt; is set to off while doing that the motor won't turn.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
-            <cDefine>APPCONF_ADC_BOOST_VOLTAGE2_START</cDefine>
-            <editorDecimalsDouble>2</editorDecimalsDouble>
-            <editorScale>1</editorScale>
-            <editAsPercentage>0</editAsPercentage>
-            <maxDouble>3.3</maxDouble>
-            <minDouble>0</minDouble>
-            <showDisplay>1</showDisplay>
-            <stepDouble>0.01</stepDouble>
-            <valDouble>0.9</valDouble>
-            <vTxDoubleScale>1000</vTxDoubleScale>
-            <suffix> V</suffix>
-            <vTx>9</vTx>
-        </app_adc_boost_conf.voltage2_start>
         <app_adc_conf.voltage2_end>
             <longName>ADC2 Max Voltage</longName>
             <type>1</type>
@@ -874,28 +696,6 @@ p, li { white-space: pre-wrap; }
             <suffix> V</suffix>
             <vTx>9</vTx>
         </app_adc_conf.voltage2_end>
-        <app_adc_boost_conf.voltage2_end>
-            <longName>ADC2 Max Voltage</longName>
-            <type>1</type>
-            <transmittable>1</transmittable>
-            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; ; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu';&quot;&gt;Input voltage at the end of the throttle range for ADC2. Can be checked by enabling display and giving the maximum input. If &lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-weight:600;&quot;&gt;Control Type&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu';&quot;&gt; is set to off while doing that the motor won't turn.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
-            <cDefine>APPCONF_ADC_BOOST_VOLTAGE2_END</cDefine>
-            <editorDecimalsDouble>2</editorDecimalsDouble>
-            <editorScale>1</editorScale>
-            <editAsPercentage>0</editAsPercentage>
-            <maxDouble>3.3</maxDouble>
-            <minDouble>0</minDouble>
-            <showDisplay>1</showDisplay>
-            <stepDouble>0.01</stepDouble>
-            <valDouble>3</valDouble>
-            <vTxDoubleScale>1000</vTxDoubleScale>
-            <suffix> V</suffix>
-            <vTx>9</vTx>
-        </app_adc_boost_conf.voltage2_end>
         <app_adc_conf.use_filter>
             <longName>Use Filter</longName>
             <type>5</type>
@@ -908,18 +708,6 @@ p, li { white-space: pre-wrap; }
             <cDefine>APPCONF_ADC_USE_FILTER</cDefine>
             <valInt>1</valInt>
         </app_adc_conf.use_filter>
-        <app_adc_boost_conf.use_filter>
-            <longName>Use Filter</longName>
-            <type>5</type>
-            <transmittable>1</transmittable>
-            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; ; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;Use a median filter to reject noise. This will introduce a slight delay.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
-            <cDefine>APPCONF_ADC_BOOST_USE_FILTER</cDefine>
-            <valInt>1</valInt>
-        </app_adc_boost_conf.use_filter>
         <app_adc_conf.safe_start>
             <longName>Safe Start</longName>
             <type>5</type>
@@ -932,18 +720,6 @@ p, li { white-space: pre-wrap; }
             <cDefine>APPCONF_ADC_SAFE_START</cDefine>
             <valInt>1</valInt>
         </app_adc_conf.safe_start>
-        <app_adc_boost_conf.safe_start>
-            <longName>Safe Start</longName>
-            <type>5</type>
-            <transmittable>1</transmittable>
-            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; ; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;Only allow the motor to start if the commanded power has been zero for several cycles after boot, after faults and after configuration updates.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
-            <cDefine>APPCONF_ADC_BOOST_SAFE_START</cDefine>
-            <valInt>1</valInt>
-        </app_adc_boost_conf.safe_start>
         <app_adc_conf.cc_button_inverted>
             <longName>Invert Cruise Control Button</longName>
             <type>5</type>
@@ -956,18 +732,6 @@ p, li { white-space: pre-wrap; }
             <cDefine>APPCONF_ADC_CC_BUTTON_INVERTED</cDefine>
             <valInt>0</valInt>
         </app_adc_conf.cc_button_inverted>
-        <app_adc_boost_conf.cc_button_inverted>
-            <longName>Invert Cruise Control Button</longName>
-            <type>5</type>
-            <transmittable>1</transmittable>
-            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; ; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;Invert the cruise control button. For supporting both normally-closed and normally-open buttons.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
-            <cDefine>APPCONF_ADC_BOOST_CC_BUTTON_INVERTED</cDefine>
-            <valInt>0</valInt>
-        </app_adc_boost_conf.cc_button_inverted>
         <app_adc_conf.rev_button_inverted>
             <longName>Invert Reverse Button</longName>
             <type>5</type>
@@ -980,18 +744,6 @@ p, li { white-space: pre-wrap; }
             <cDefine>APPCONF_ADC_REV_BUTTON_INVERTED</cDefine>
             <valInt>0</valInt>
         </app_adc_conf.rev_button_inverted>
-        <app_adc_boost_conf.rev_button_inverted>
-            <longName>Invert Reverse Button</longName>
-            <type>5</type>
-            <transmittable>1</transmittable>
-            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; ; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;Invert the reverse button. For supporting both normally-closed and normally-open buttons.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
-            <cDefine>APPCONF_ADC_BOOST_REV_BUTTON_INVERTED</cDefine>
-            <valInt>0</valInt>
-        </app_adc_boost_conf.rev_button_inverted>
         <app_adc_conf.voltage_inverted>
             <longName>Invert ADC1 Voltage</longName>
             <type>5</type>
@@ -1004,84 +756,6 @@ p, li { white-space: pre-wrap; }
             <cDefine>APPCONF_ADC_VOLTAGE_INVERTED</cDefine>
             <valInt>0</valInt>
         </app_adc_conf.voltage_inverted>
-        <app_adc_boost_conf.voltage_inverted>
-            <longName>Invert ADC1 Voltage</longName>
-            <type>5</type>
-            <transmittable>1</transmittable>
-            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; ; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;Invert the voltage from ADC1.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
-            <cDefine>APPCONF_ADC_BOOST_VOLTAGE_INVERTED</cDefine>
-            <valInt>0</valInt>
-        </app_adc_boost_conf.voltage_inverted>
-        <app_adc_boost_conf.max_boost_time>
-            <longName>Maximum Boost Time</longName>
-            <type>1</type>
-            <transmittable>1</transmittable>
-            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; ; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;Maximum Boost time for boost. Edit this later.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
-            <cDefine>APPCONF_ADC_BOOST_MAX_BOOST_TIME</cDefine>
-            <editorDecimalsDouble>1</editorDecimalsDouble>
-            <editorScale>1</editorScale>
-            <editAsPercentage>0</editAsPercentage>
-            <maxDouble>120</maxDouble>
-            <minDouble>0.5</minDouble>
-            <showDisplay>0</showDisplay>
-            <stepDouble>0.5</stepDouble>
-            <valDouble>15</valDouble>
-            <vTxDoubleScale>1</vTxDoubleScale>
-            <suffix></suffix>
-            <vTx>9</vTx>
-        </app_adc_boost_conf.max_boost_time>
-        <app_adc_boost_conf.boost_start>
-            <longName>Boost Start</longName>
-            <type>1</type>
-            <transmittable>1</transmittable>
-            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; ; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Power level at which boost mode gets enabled. The power will be limited to this value if held above for too long.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
-            <cDefine>APPCONF_ADC_BOOST_BOOST_START</cDefine>
-            <editorDecimalsDouble>2</editorDecimalsDouble>
-            <editorScale>1</editorScale>
-            <editAsPercentage>1</editAsPercentage>
-            <maxDouble>1</maxDouble>
-            <minDouble>0.5</minDouble>
-            <showDisplay>1</showDisplay>
-            <stepDouble>0.01</stepDouble>
-            <valDouble>0.8</valDouble>
-            <vTxDoubleScale>1</vTxDoubleScale>
-            <suffix></suffix>
-            <vTx>9</vTx>
-        </app_adc_boost_conf.boost_start>
-        <app_adc_boost_conf.boost_cooldown_factor>
-            <longName>Boost Cooldown Factor</longName>
-            <type>1</type>
-            <transmittable>1</transmittable>
-            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; ; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;How much slower motor cools down than heats up.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
-            <cDefine>APPCONF_ADC_BOOST_BOOST_COOLDOWN_FACTOR</cDefine>
-            <editorDecimalsDouble>1</editorDecimalsDouble>
-            <editorScale>1</editorScale>
-            <editAsPercentage>0</editAsPercentage>
-            <maxDouble>30</maxDouble>
-            <minDouble>0.5</minDouble>
-            <showDisplay>0</showDisplay>
-            <stepDouble>0.1</stepDouble>
-            <valDouble>5</valDouble>
-            <vTxDoubleScale>1</vTxDoubleScale>
-            <suffix></suffix>
-            <vTx>9</vTx>
-        </app_adc_boost_conf.boost_cooldown_factor>
         <app_adc_conf.voltage2_inverted>
             <longName>Invert ADC2 Voltage</longName>
             <type>5</type>
@@ -1094,18 +768,6 @@ p, li { white-space: pre-wrap; }
             <cDefine>APPCONF_ADC_VOLTAGE2_INVERTED</cDefine>
             <valInt>0</valInt>
         </app_adc_conf.voltage2_inverted>
-        <app_adc_boost_conf.voltage2_inverted>
-            <longName>Invert ADC2 Voltage</longName>
-            <type>5</type>
-            <transmittable>1</transmittable>
-            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; ; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;Invert the voltage from ADC2.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
-            <cDefine>APPCONF_ADC_BOOST_VOLTAGE2_INVERTED</cDefine>
-            <valInt>0</valInt>
-        </app_adc_boost_conf.voltage2_inverted>
         <app_adc_conf.throttle_exp>
             <longName>Throttle Expo</longName>
             <type>1</type>
@@ -1139,39 +801,6 @@ p, li { white-space: pre-wrap; }
             <suffix></suffix>
             <vTx>9</vTx>
         </app_adc_conf.throttle_exp>
-        <app_adc_boost_conf.throttle_exp>
-            <longName>Throttle Expo</longName>
-            <type>1</type>
-            <transmittable>1</transmittable>
-            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; ; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;Exponential gain for the throttle.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif'; font-weight:600;&quot;&gt;Zero (0)&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;Linear throttle&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif'; font-weight:600;&quot;&gt;Negative (&amp;lt;0)&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;The throttle is softer close to 0 and increases exponentially towards full throttle.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif'; font-weight:600;&quot;&gt;Positive (&amp;gt;0)&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;The throttle reacts fast around 0 and decreases exponentially towards full throttle.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;Increasing the magnitude of this value will increase the exponential effect. The full throttle curve can be seen in the throttle curve plot.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
-            <cDefine>APPCONF_ADC_BOOST_THROTTLE_EXP</cDefine>
-            <editorDecimalsDouble>2</editorDecimalsDouble>
-            <editorScale>1</editorScale>
-            <editAsPercentage>1</editAsPercentage>
-            <maxDouble>5</maxDouble>
-            <minDouble>-5</minDouble>
-            <showDisplay>1</showDisplay>
-            <stepDouble>1</stepDouble>
-            <valDouble>0</valDouble>
-            <vTxDoubleScale>1</vTxDoubleScale>
-            <suffix></suffix>
-            <vTx>9</vTx>
-        </app_adc_boost_conf.throttle_exp>
         <app_adc_conf.throttle_exp_brake>
             <longName>Throttle Expo Brake</longName>
             <type>1</type>
@@ -1205,39 +834,6 @@ p, li { white-space: pre-wrap; }
             <suffix></suffix>
             <vTx>9</vTx>
         </app_adc_conf.throttle_exp_brake>
-        <app_adc_boost_conf.throttle_exp_brake>
-            <longName>Throttle Expo Brake</longName>
-            <type>1</type>
-            <transmittable>1</transmittable>
-            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; ; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;Exponential gain for the throttle.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif'; font-weight:600;&quot;&gt;Zero (0)&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;Linear throttle&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif'; font-weight:600;&quot;&gt;Negative (&amp;lt;0)&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;The throttle is softer close to 0 and increases exponentially towards full throttle.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif'; font-weight:600;&quot;&gt;Positive (&amp;gt;0)&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;The throttle reacts fast around 0 and decreases exponentially towards full throttle.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;Increasing the magnitude of this value will increase the exponential effect. The full throttle curve can be seen in the throttle curve plot.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
-            <cDefine>APPCONF_ADC_BOOST_THROTTLE_EXP_BRAKE</cDefine>
-            <editorDecimalsDouble>2</editorDecimalsDouble>
-            <editorScale>1</editorScale>
-            <editAsPercentage>1</editAsPercentage>
-            <maxDouble>5</maxDouble>
-            <minDouble>-5</minDouble>
-            <showDisplay>1</showDisplay>
-            <stepDouble>1</stepDouble>
-            <valDouble>0</valDouble>
-            <vTxDoubleScale>1</vTxDoubleScale>
-            <suffix></suffix>
-            <vTx>9</vTx>
-        </app_adc_boost_conf.throttle_exp_brake>
         <app_adc_conf.throttle_exp_mode>
             <longName>Throttle Expo Mode</longName>
             <type>4</type>
@@ -1270,38 +866,6 @@ p, li { white-space: pre-wrap; }
             <enumNames>Natural</enumNames>
             <enumNames>Polynomial</enumNames>
         </app_adc_conf.throttle_exp_mode>
-        <app_adc_boost_conf.throttle_exp_mode>
-            <longName>Throttle Expo Mode</longName>
-            <type>4</type>
-            <transmittable>1</transmittable>
-            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; ; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu';&quot;&gt;The throttle curve mode.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-weight:600;&quot;&gt;Exponential&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu';&quot;&gt;y = x^(1 + c)&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-weight:600;&quot;&gt;Natural&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu';&quot;&gt;y = (e^(cx) - 1) / (e^c - 1)&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-weight:600;&quot;&gt;Polynomial&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu';&quot;&gt;y = x / (1 + c(1 - x))&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu';&quot;&gt;where&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-weight:600;&quot;&gt;y:&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu';&quot;&gt; output&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-weight:600;&quot;&gt;x:&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu';&quot;&gt; input&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-weight:600;&quot;&gt;c:&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu';&quot;&gt; curve&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu';&quot;&gt;The curve parameter, offsets and signs are mapped accordingly for each mode.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
-            <cDefine>APPCONF_ADC_BOOST_THROTTLE_EXP_MODE</cDefine>
-            <valInt>2</valInt>
-            <enumNames>Exponential</enumNames>
-            <enumNames>Natural</enumNames>
-            <enumNames>Polynomial</enumNames>
-        </app_adc_boost_conf.throttle_exp_mode>
         <app_adc_conf.ramp_time_pos>
             <longName>Positive Ramping Time</longName>
             <type>1</type>
@@ -1324,28 +888,6 @@ p, li { white-space: pre-wrap; }
             <suffix> s</suffix>
             <vTx>9</vTx>
         </app_adc_conf.ramp_time_pos>
-        <app_adc_boost_conf.ramp_time_pos>
-            <longName>Positive Ramping Time</longName>
-            <type>1</type>
-            <transmittable>1</transmittable>
-            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; ; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;Positive ramping time constant. This filters the input with ramping. This constant represents the amount of secods it takes to ramp from zero to full output.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
-            <cDefine>APPCONF_ADC_BOOST_RAMP_TIME_POS</cDefine>
-            <editorDecimalsDouble>2</editorDecimalsDouble>
-            <editorScale>1</editorScale>
-            <editAsPercentage>0</editAsPercentage>
-            <maxDouble>1000</maxDouble>
-            <minDouble>0</minDouble>
-            <showDisplay>0</showDisplay>
-            <stepDouble>0.1</stepDouble>
-            <valDouble>0.9</valDouble>
-            <vTxDoubleScale>1000</vTxDoubleScale>
-            <suffix> s</suffix>
-            <vTx>9</vTx>
-        </app_adc_boost_conf.ramp_time_pos>
         <app_adc_conf.ramp_time_neg>
             <longName>Negative Ramping Time</longName>
             <type>1</type>
@@ -1368,28 +910,6 @@ p, li { white-space: pre-wrap; }
             <suffix> s</suffix>
             <vTx>9</vTx>
         </app_adc_conf.ramp_time_neg>
-        <app_adc_boost_conf.ramp_time_neg>
-            <longName>Negative Ramping Time</longName>
-            <type>1</type>
-            <transmittable>1</transmittable>
-            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; ; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;Negative ramping time constant. This filters the input with ramping. This constant represents the amount of secods it takes to ramp from full output (acceleration or braking) back to zero.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
-            <cDefine>APPCONF_ADC_BOOST_RAMP_TIME_NEG</cDefine>
-            <editorDecimalsDouble>2</editorDecimalsDouble>
-            <editorScale>1</editorScale>
-            <editAsPercentage>0</editAsPercentage>
-            <maxDouble>1000</maxDouble>
-            <minDouble>0</minDouble>
-            <showDisplay>0</showDisplay>
-            <stepDouble>0.1</stepDouble>
-            <valDouble>0.3</valDouble>
-            <vTxDoubleScale>1000</vTxDoubleScale>
-            <suffix> s</suffix>
-            <vTx>9</vTx>
-        </app_adc_boost_conf.ramp_time_neg>
         <app_adc_conf.multi_esc>
             <longName>Multiple VESCs Over CAN</longName>
             <type>5</type>
@@ -1402,18 +922,6 @@ p, li { white-space: pre-wrap; }
             <cDefine>APPCONF_ADC_MULTI_ESC</cDefine>
             <valInt>0</valInt>
         </app_adc_conf.multi_esc>
-        <app_adc_boost_conf.multi_esc>
-            <longName>Multiple VESCs Over CAN</longName>
-            <type>5</type>
-            <transmittable>1</transmittable>
-            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; ; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;Listen for other VESCs on the CAN-bus and send the same control commands to them. Notice that the application only has to be set up on the master VESC.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
-            <cDefine>APPCONF_ADC_BOOST_MULTI_ESC</cDefine>
-            <valInt>0</valInt>
-        </app_adc_boost_conf.multi_esc>
         <app_adc_conf.tc>
             <longName>Traction Control</longName>
             <type>5</type>
@@ -1426,18 +934,6 @@ p, li { white-space: pre-wrap; }
             <cDefine>APPCONF_ADC_TC</cDefine>
             <valInt>0</valInt>
         </app_adc_conf.tc>
-        <app_adc_boost_conf.tc>
-            <longName>Traction Control</longName>
-            <type>5</type>
-            <transmittable>1</transmittable>
-            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; ; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;Enable traction control between multiple VESCs connected over CAN-bus. This is only is only used for current control modes.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
-            <cDefine>APPCONF_ADC_BOOST_TC</cDefine>
-            <valInt>0</valInt>
-        </app_adc_boost_conf.tc>
         <app_adc_conf.tc_max_diff>
             <longName>TC Max ERPM Difference</longName>
             <type>1</type>
@@ -1460,28 +956,6 @@ p, li { white-space: pre-wrap; }
             <suffix></suffix>
             <vTx>9</vTx>
         </app_adc_conf.tc_max_diff>
-        <app_adc_boost_conf.tc_max_diff>
-            <longName>TC Max ERPM Difference</longName>
-            <type>1</type>
-            <transmittable>1</transmittable>
-            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; ; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;The ERPM difference at which the fastest motor gets swtiched off completely. If the difference in ERPM is lower than that the current to faster motors is scaled down proportionally to the difference.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
-            <cDefine>APPCONF_ADC_BOOST_TC_MAX_DIFF</cDefine>
-            <editorDecimalsDouble>2</editorDecimalsDouble>
-            <editorScale>1</editorScale>
-            <editAsPercentage>0</editAsPercentage>
-            <maxDouble>100000</maxDouble>
-            <minDouble>0</minDouble>
-            <showDisplay>0</showDisplay>
-            <stepDouble>100</stepDouble>
-            <valDouble>3000</valDouble>
-            <vTxDoubleScale>1000</vTxDoubleScale>
-            <suffix></suffix>
-            <vTx>9</vTx>
-        </app_adc_boost_conf.tc_max_diff>
         <app_adc_conf.update_rate_hz>
             <longName>Update Rate</longName>
             <type>2</type>
@@ -1502,26 +976,6 @@ p, li { white-space: pre-wrap; }
             <suffix> Hz</suffix>
             <vTx>3</vTx>
         </app_adc_conf.update_rate_hz>
-        <app_adc_boost_conf.update_rate_hz>
-            <longName>Update Rate</longName>
-            <type>2</type>
-            <transmittable>1</transmittable>
-            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; ; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;Rate at which the input is sampled.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
-            <cDefine>APPCONF_ADC_BOOST_UPDATE_RATE_HZ</cDefine>
-            <editorScale>1</editorScale>
-            <editAsPercentage>0</editAsPercentage>
-            <maxInt>100000</maxInt>
-            <minInt>0</minInt>
-            <showDisplay>0</showDisplay>
-            <stepInt>10</stepInt>
-            <valInt>500</valInt>
-            <suffix> Hz</suffix>
-            <vTx>3</vTx>
-        </app_adc_boost_conf.update_rate_hz>
         <app_uart_baudrate>
             <longName>Baudrate</longName>
             <type>2</type>
@@ -2051,30 +1505,5 @@ p, li { white-space: pre-wrap; }
         <ser>app_nrf_conf.address_1</ser>
         <ser>app_nrf_conf.address_2</ser>
         <ser>app_nrf_conf.send_crc_ack</ser>
-        <ser>app_adc_boost_conf.ctrl_type</ser>
-        <ser>app_adc_boost_conf.hyst</ser>
-        <ser>app_adc_boost_conf.voltage_start</ser>
-        <ser>app_adc_boost_conf.voltage_end</ser>
-        <ser>app_adc_boost_conf.voltage_center</ser>
-        <ser>app_adc_boost_conf.voltage2_start</ser>
-        <ser>app_adc_boost_conf.voltage2_end</ser>
-        <ser>app_adc_boost_conf.use_filter</ser>
-        <ser>app_adc_boost_conf.safe_start</ser>
-        <ser>app_adc_boost_conf.cc_button_inverted</ser>
-        <ser>app_adc_boost_conf.rev_button_inverted</ser>
-        <ser>app_adc_boost_conf.voltage_inverted</ser>
-        <ser>app_adc_boost_conf.voltage2_inverted</ser>
-        <ser>app_adc_boost_conf.throttle_exp</ser>
-        <ser>app_adc_boost_conf.throttle_exp_brake</ser>
-        <ser>app_adc_boost_conf.throttle_exp_mode</ser>
-        <ser>app_adc_boost_conf.ramp_time_pos</ser>
-        <ser>app_adc_boost_conf.ramp_time_neg</ser>
-        <ser>app_adc_boost_conf.multi_esc</ser>
-        <ser>app_adc_boost_conf.tc</ser>
-        <ser>app_adc_boost_conf.tc_max_diff</ser>
-        <ser>app_adc_boost_conf.update_rate_hz</ser>
-        <ser>app_adc_boost_conf.max_boost_time</ser>
-        <ser>app_adc_boost_conf.boost_start</ser>
-        <ser>app_adc_boost_conf.boost_cooldown_factor</ser>
     </SerOrder>
 </ConfigParams>
