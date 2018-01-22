@@ -140,7 +140,7 @@ p, li { white-space: pre-wrap; }
             <minDouble>0.5</minDouble>
             <showDisplay>0</showDisplay>
             <stepDouble>0.5</stepDouble>
-            <valDouble>15</valDouble>
+            <valDouble>10</valDouble>
             <vTxDoubleScale>1000</vTxDoubleScale>
             <suffix> s</suffix>
             <vTx>9</vTx>
@@ -2498,7 +2498,7 @@ p, li { white-space: pre-wrap; }
             <minDouble>1</minDouble>
             <showDisplay>0</showDisplay>
             <stepDouble>0.5</stepDouble>
-            <valDouble>60</valDouble>
+            <valDouble>90</valDouble>
             <vTxDoubleScale>1000</vTxDoubleScale>
             <suffix> s</suffix>
             <vTx>9</vTx>
