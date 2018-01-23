@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
     // Settings
     QCoreApplication::setOrganizationName("VESC");
     QCoreApplication::setOrganizationDomain("vesc-project.com");
-    QCoreApplication::setApplicationName("VESC Tool");
+    QCoreApplication::setApplicationName("VESC Tool (Boost Mod by JL2579 & Tom)");
 
     // DPI settings
     // TODO: http://www.qcustomplot.com/index.php/support/forum/1344

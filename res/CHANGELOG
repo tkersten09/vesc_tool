@@ -1,3 +1,10 @@
+== Boost Mod V1.0.2 ==
+* Added Motor Boost Current Settings under Motor Settings->General->Current
+* Fixed wrong current ramp down calculation in the Mosfet Overtemp soft current cutoff
+* Added Soft Duty Cycle cutoff. This allows to make a soft cutoff independent of the battery
+    voltage level.
+
+
 == 0.87 ==
 * RT plot time measurement improvement.
 * First implementation of BLE support.
