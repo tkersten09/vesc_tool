@@ -316,7 +316,7 @@ p, li { white-space: pre-wrap; }
             <vTx>9</vTx>
         </l_erpm_start>
         <l_duty_start>
-            <longName>Duty Cycle Limit Start</longName>
+            <longName>Soft Duty Cycle Limit Start</longName>
             <type>1</type>
             <transmittable>1</transmittable>
             <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
