@@ -56,9 +56,9 @@ int main(int argc, char *argv[])
 
     if (scaleAuto) {
         QApplication tmp(argc, argv);
-        QRect rec = tmp.desktop()->screenGeometry();
-        int height = rec.height();
-        int width = rec.width();
+//        QRect rec = tmp.desktop()->screenGeometry();
+//        int height = rec.height();
+//        int width = rec.width();
         double ptFont = tmp.font().pointSizeF();
         if (ptFont < 0.0) {
             ptFont = tmp.font().pixelSize();
