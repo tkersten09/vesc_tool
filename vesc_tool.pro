@@ -45,7 +45,7 @@ contains(DEFINES, HAS_SERIALPORT) {
 android: QT += androidextras
 
 android: TARGET = vesc_tool
-!android: TARGET = vesc_tool_$$VT_VERSION
+!android: TARGET = vesc_tool_boost_mod_$$VT_VERSION
 
 TEMPLATE = app
 
