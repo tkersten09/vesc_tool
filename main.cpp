@@ -24,7 +24,7 @@
 #include <QSettings>
 #include <QDesktopWidget>
 #include <QFontDatabase>
-
+#include <math.h>
 #include "mobile/qmlui.h"
 
 int main(int argc, char *argv[])
@@ -56,21 +56,26 @@ int main(int argc, char *argv[])
 
     if (scaleAuto) {
         QApplication tmp(argc, argv);
-        QRect rec = tmp.desktop()->screenGeometry();
-        int height = rec.height();
-        int width = rec.width();
+//        QRect rec = tmp.desktop()->screenGeometry();
+//        int height = rec.height();
+//        int width = rec.width();
         double ptFont = tmp.font().pointSizeF();
         if (ptFont < 0.0) {
             ptFont = tmp.font().pixelSize();
         }
 
-        if (width > 3000 && height > 1700) {
-            scale = 1.5;
-        } else {
-            if (ptFont > 11.0) {
-                scale = ptFont / 11.0;
-            }
-        }
+//        float scale_tmp = round(sqrt(width*height)/150.0)/10.0;
+//        if (scale_tmp >1.0){
+//            scale=scale_tmp;
+//        }
+
+//        if (width > 3000 && height > 1700) {
+//            scale = 1.5;
+//        } else {
+//            if (ptFont > 11.0) {
+//                scale = ptFont / 11.0;
+//            }
+//        }
 
         set.setValue("app_scale_factor", scale);
     } else if (set.contains("app_scale_factor")) {
