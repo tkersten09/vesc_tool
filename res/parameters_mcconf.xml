@@ -315,6 +315,28 @@ p, li { white-space: pre-wrap; }
             <suffix></suffix>
             <vTx>9</vTx>
         </l_erpm_start>
+        <l_duty_start>
+            <longName>Soft Duty Cycle Limit Start</longName>
+            <type>1</type>
+            <transmittable>1</transmittable>
+            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; ; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;Start to reduce the current at this fraction of the Maximum Duty Cycle. Lowering this number will make the Duty Cycle limit softer.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
+            <cDefine>MCCONF_L_DUTY_CYCLE_START</cDefine>
+            <editorDecimalsDouble>1</editorDecimalsDouble>
+            <editorScale>100</editorScale>
+            <editAsPercentage>0</editAsPercentage>
+            <maxDouble>1</maxDouble>
+            <minDouble>0</minDouble>
+            <showDisplay>1</showDisplay>
+            <stepDouble>0.5</stepDouble>
+            <valDouble>0.9</valDouble>
+            <vTxDoubleScale>1e+6</vTxDoubleScale>
+            <suffix> %</suffix>
+            <vTx>9</vTx>
+        </l_duty_start>
         <l_max_erpm_fbrake>
             <longName>Max ERPM Full Brake</longName>
             <type>1</type>
@@ -2615,5 +2637,6 @@ p, li { white-space: pre-wrap; }
         <ser>l_boost_current</ser>
         <ser>max_boost_time</ser>
         <ser>boost_cooldown_time</ser>
+        <ser>l_duty_start</ser>
     </SerOrder>
 </ConfigParams>

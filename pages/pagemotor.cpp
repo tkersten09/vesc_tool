@@ -90,7 +90,8 @@ void PageMotor::setVesc(VescInterface *vesc)
         ui->advancedTab->addParamRow(mVesc->mcConfig(), "l_min_vin");
         ui->advancedTab->addParamRow(mVesc->mcConfig(), "l_max_vin");
         ui->advancedTab->addParamRow(mVesc->mcConfig(), "l_min_duty");
-        ui->advancedTab->addParamRow(mVesc->mcConfig(), "l_max_duty");
+        ui->advancedTab->addParamRow(mVesc->mcConfig(), "l_duty_start");
+        ui->advancedTab->addParamRow(mVesc->mcConfig(), "l_max_duty"); 
         ui->advancedTab->addParamRow(mVesc->mcConfig(), "cc_min_current");
         ui->advancedTab->addParamRow(mVesc->mcConfig(), "m_fault_stop_time_ms");
         ui->advancedTab->addParamRow(mVesc->mcConfig(), "m_ntc_motor_beta");
