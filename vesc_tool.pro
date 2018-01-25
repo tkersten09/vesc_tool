@@ -8,6 +8,9 @@
 VT_VERSION = 0.87
 VT_INTRO_VERSION = 1
 
+# Use static linking for deploying a standalone executable for a release
+CONFIG+= static
+
 DEFINES += VT_VERSION=$$VT_VERSION
 DEFINES += VT_INTRO_VERSION=$$VT_INTRO_VERSION
 

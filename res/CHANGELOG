@@ -1,3 +1,6 @@
+== Boost Mod V1.0.0 ==
+* Added Motor Boost Current Settings under Motor Settings->General->Current
+
 == 0.87 ==
 * RT plot time measurement improvement.
 * First implementation of BLE support.

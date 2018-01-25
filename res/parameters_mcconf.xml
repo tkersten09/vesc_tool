@@ -93,6 +93,58 @@ p, li { white-space: pre-wrap; }
             <suffix> A</suffix>
             <vTx>9</vTx>
         </l_current_max>
+        <l_boost_current>
+            <longName>Maximum Boost Current</longName>
+            <type>1</type>
+            <transmittable>1</transmittable>
+            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; ; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Boost Settings&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;Increased maximum motor current during boost.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;see &lt;/span&gt;&lt;span style=&quot; font-family:'Sans Serif'; font-weight:600;&quot;&gt;Boost Cooldown Time&lt;/span&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt; for more info.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
+            <cDefine>MCCONF_L_BOOST_CURRENT</cDefine>
+            <editorDecimalsDouble>1</editorDecimalsDouble>
+            <editorScale>1</editorScale>
+            <editAsPercentage>0</editAsPercentage>
+            <maxDouble>200</maxDouble>
+            <minDouble>0</minDouble>
+            <showDisplay>0</showDisplay>
+            <stepDouble>0.5</stepDouble>
+            <valDouble>80</valDouble>
+            <vTxDoubleScale>1000</vTxDoubleScale>
+            <suffix> A</suffix>
+            <vTx>9</vTx>
+        </l_boost_current>
+        <max_boost_time>
+            <longName>Maximum Boost Time</longName>
+            <type>1</type>
+            <transmittable>1</transmittable>
+            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; ; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Boost mode&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;Maximum boost time.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;see &lt;/span&gt;&lt;span style=&quot; font-family:'Sans Serif'; font-weight:600;&quot;&gt;Boost Cooldown Time&lt;/span&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt; for more.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
+            <cDefine>MCCONF_MAX_BOOST_TIME</cDefine>
+            <editorDecimalsDouble>1</editorDecimalsDouble>
+            <editorScale>1</editorScale>
+            <editAsPercentage>0</editAsPercentage>
+            <maxDouble>300</maxDouble>
+            <minDouble>0.5</minDouble>
+            <showDisplay>0</showDisplay>
+            <stepDouble>0.5</stepDouble>
+            <valDouble>10</valDouble>
+            <vTxDoubleScale>1000</vTxDoubleScale>
+            <suffix> s</suffix>
+            <vTx>9</vTx>
+        </max_boost_time>
         <l_current_min>
             <longName>Motor Current Max Brake</longName>
             <type>1</type>
@@ -115,6 +167,22 @@ p, li { white-space: pre-wrap; }
             <suffix> A</suffix>
             <vTx>9</vTx>
         </l_current_min>
+        <boost_enabled>
+            <longName>Boost Enabled</longName>
+            <type>5</type>
+            <transmittable>1</transmittable>
+            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; ; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif'; font-weight:600;&quot;&gt;Boost Settings&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;Enable Motor Current Boost.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;see &lt;/span&gt;&lt;span style=&quot; font-family:'Sans Serif'; font-weight:600;&quot;&gt;Max Boost Time&lt;/span&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt; for more info.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
+            <cDefine>MCCONF_BOOST_ENABLED</cDefine>
+            <valInt>0</valInt>
+        </boost_enabled>
         <l_in_current_max>
             <longName>Battery Current Max</longName>
             <type>1</type>
@@ -166,8 +234,8 @@ p, li { white-space: pre-wrap; }
             <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; ; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;The current magnitute above which all output will be switched off and a fault code thrown. Usually the current control loops take care of limiting the current, but in some conditions short current spikes can appear very quickly. The system can handle them quite well in most cased, so this value can be set relatively high compared to the other current values to avoid cutouts.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; ; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;The current magnitute above which all output will be switched off and a fault code thrown. Usually the current control loops take care of limiting the current, but in some conditions short current spikes can appear very quickly. The system can handle them quite well in most cases, so this value can be set relatively high compared to the other current values to avoid cutouts.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
             <cDefine>MCCONF_L_MAX_ABS_CURRENT</cDefine>
             <editorDecimalsDouble>2</editorDecimalsDouble>
             <editorScale>1</editorScale>
@@ -496,7 +564,7 @@ p, li { white-space: pre-wrap; }
             <minDouble>0</minDouble>
             <showDisplay>1</showDisplay>
             <stepDouble>1</stepDouble>
-            <valDouble>0.15</valDouble>
+            <valDouble>0.14</valDouble>
             <vTxDoubleScale>1000</vTxDoubleScale>
             <suffix> %</suffix>
             <vTx>9</vTx>
@@ -2404,6 +2472,38 @@ p, li { white-space: pre-wrap; }
             <cDefine></cDefine>
             <valString>Some comments about the motor quality. Images can be added as well.</valString>
         </motor_quality_description>
+        <boost_cooldown_time>
+            <longName>Boost Cooldown Time</longName>
+            <type>1</type>
+            <transmittable>1</transmittable>
+            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; ; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Boost Settings&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;Boost temporarily increases the maximum motor current. This allows to enhance acceleration and performance of motors without a temperature sensor whilst keeping the risk of motor overheating during long term increased load (i.e. driving up a long hill) at a minimum&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;Internally, this simulates the motor temperature using a simple linear model that increases the temperature propotionally to the current above the default current limit and decreases it at a constant rate if the current is lower. If the simulated value reaches a calculated threshold, the boost current is disabled for &lt;/span&gt;&lt;span style=&quot; font-family:'Sans Serif'; font-weight:600;&quot;&gt;Boost Cooldown Time .&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;The cooldown takes &lt;/span&gt;&lt;span style=&quot; font-family:'Sans Serif'; font-weight:600;&quot;&gt;Boost Cooldown Time&lt;/span&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt; if the &lt;/span&gt;&lt;span style=&quot; font-family:'Sans Serif'; font-weight:600;&quot;&gt;Maximum Boost Current&lt;/span&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt; (l_boost_current) has been requested for the &lt;/span&gt;&lt;span style=&quot; font-family:'Sans Serif'; font-weight:600;&quot;&gt;Maximum Boost Time &lt;/span&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;(max_boost_time). &lt;br /&gt;&lt;br /&gt;During cooldown the maximum current is limited to the normal limit &lt;/span&gt;&lt;span style=&quot; font-family:'Sans Serif'; font-weight:600;&quot;&gt;Motor Current Max&lt;/span&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt; (l_current_max).&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;If there is currently any fault limiting the &lt;/span&gt;&lt;span style=&quot; font-family:'Sans Serif'; font-weight:600;&quot;&gt;Motor Current Max&lt;/span&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt; , boost current will be disabled.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;If the requested current has been more than &lt;/span&gt;&lt;span style=&quot; font-family:'Sans Serif'; font-weight:600;&quot;&gt;Motor Current Max &lt;/span&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;but less than the &lt;/span&gt;&lt;span style=&quot; font-family:'Sans Serif'; font-weight:600;&quot;&gt;Maximum Boost Current , &lt;/span&gt;&lt;span style=&quot; font-family:'Sans Serif';&quot;&gt;it will take propotionally longer to trigger the cooldown phase. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
+            <cDefine>MCCONF_BOOST_COOLDOWN_TIME</cDefine>
+            <editorDecimalsDouble>1</editorDecimalsDouble>
+            <editorScale>1</editorScale>
+            <editAsPercentage>0</editAsPercentage>
+            <maxDouble>1500</maxDouble>
+            <minDouble>1</minDouble>
+            <showDisplay>0</showDisplay>
+            <stepDouble>0.5</stepDouble>
+            <valDouble>90</valDouble>
+            <vTxDoubleScale>1000</vTxDoubleScale>
+            <suffix> s</suffix>
+            <vTx>9</vTx>
+        </boost_cooldown_time>
     </Params>
     <SerOrder>
         <ser>pwm_mode</ser>
@@ -2511,5 +2611,9 @@ p, li { white-space: pre-wrap; }
         <ser>m_bldc_f_sw_max</ser>
         <ser>m_dc_f_sw</ser>
         <ser>m_ntc_motor_beta</ser>
+        <ser>boost_enabled</ser>
+        <ser>l_boost_current</ser>
+        <ser>max_boost_time</ser>
+        <ser>boost_cooldown_time</ser>
     </SerOrder>
 </ConfigParams>
