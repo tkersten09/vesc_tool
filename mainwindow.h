@@ -51,6 +51,7 @@
 #include "pages/pageappnunchuk.h"
 #include "pages/pageappnrf.h"
 #include "pages/pagesettings.h"
+#include "pages/pageinputsettings.h"
 
 namespace Ui {
 class MainWindow;
@@ -151,6 +152,7 @@ private:
     PageControllers *mPageControllers;
     PageMotorInfo *mPageMotorInfo;
     PageAppSettings *mPageAppSettings;
+    PageInputSettings *mPageInputSettings;
     PageAppGeneral *mPageAppGeneral;
     PageAppPpm *mPageAppPpm;
     PageAppAdc *mPageAppAdc;

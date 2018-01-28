@@ -887,6 +887,11 @@ void MainWindow::reloadPages()
     addPageItem(tr("Additional Info"), "://res/icons/About-96.png",
                 "://res/icons/mcconf.png", false, true);
 
+    mPageInputSettings = new PageInputSettings(this);
+    mPageInputSettings->setVesc(mVesc);
+    ui->pageWidget->addWidget(mPageInputSettings);
+    addPageItem(tr("Input Settings"), "://res/icons/Outgoing Data-96.png", "", true);
+
     mPageAppSettings = new PageAppSettings(this);
     mPageAppSettings->setVesc(mVesc);
     ui->pageWidget->addWidget(mPageAppSettings);
