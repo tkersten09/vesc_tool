@@ -64,6 +64,12 @@ void PageAppAdc::setVesc(VescInterface *vesc)
         ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_conf.multi_esc");
         ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_conf.tc");
         ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_conf.tc_max_diff");
+        // No-Button Cruise Control
+        ui->generalTab->addRowSeparator(tr("No-Button Cruise Control"));
+        ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_conf.nb_cc_enabled");
+        ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_conf.nb_cc_time_window");
+        ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_conf.nb_cc_input_tolerance");
+        ui->generalTab->addParamRow(mVesc->appConfig(), "app_adc_conf.nb_cc_rpm_tolerance");
 
         ui->mappingTab->addParamRow(mVesc->appConfig(), "app_adc_conf.hyst");
         ui->mappingTab->addRowSeparator(tr("ADC 1"));
