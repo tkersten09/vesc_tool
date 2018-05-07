@@ -88,7 +88,7 @@ p, li { white-space: pre-wrap; }
             <minDouble>0</minDouble>
             <showDisplay>0</showDisplay>
             <stepDouble>1</stepDouble>
-            <valDouble>59</valDouble>
+            <valDouble>60</valDouble>
             <vTxDoubleScale>1000</vTxDoubleScale>
             <suffix> A</suffix>
             <vTx>9</vTx>
@@ -110,7 +110,7 @@ p, li { white-space: pre-wrap; }
             <editorDecimalsDouble>1</editorDecimalsDouble>
             <editorScale>1</editorScale>
             <editAsPercentage>0</editAsPercentage>
-            <maxDouble>220</maxDouble>
+            <maxDouble>200</maxDouble>
             <minDouble>0</minDouble>
             <showDisplay>0</showDisplay>
             <stepDouble>0.5</stepDouble>

@@ -88,7 +88,7 @@ p, li { white-space: pre-wrap; }
             <minDouble>0</minDouble>
             <showDisplay>0</showDisplay>
             <stepDouble>1</stepDouble>
-            <valDouble>59</valDouble>
+            <valDouble>60</valDouble>
             <vTxDoubleScale>1000</vTxDoubleScale>
             <suffix> A</suffix>
             <vTx>9</vTx>
@@ -114,7 +114,7 @@ p, li { white-space: pre-wrap; }
             <minDouble>0</minDouble>
             <showDisplay>0</showDisplay>
             <stepDouble>0.5</stepDouble>
-            <valDouble>5.87752e-39</valDouble>
+            <valDouble>10</valDouble>
             <vTxDoubleScale>1000</vTxDoubleScale>
             <suffix> A</suffix>
             <vTx>9</vTx>
@@ -140,7 +140,7 @@ p, li { white-space: pre-wrap; }
             <minDouble>0.5</minDouble>
             <showDisplay>0</showDisplay>
             <stepDouble>0.5</stepDouble>
-            <valDouble>1.08421e-19</valDouble>
+            <valDouble>0.5</valDouble>
             <vTxDoubleScale>1000</vTxDoubleScale>
             <suffix> s</suffix>
             <vTx>9</vTx>
@@ -2521,7 +2521,7 @@ p, li { white-space: pre-wrap; }
             <minDouble>1</minDouble>
             <showDisplay>0</showDisplay>
             <stepDouble>0.5</stepDouble>
-            <valDouble>1.08421e-19</valDouble>
+            <valDouble>1</valDouble>
             <vTxDoubleScale>1000</vTxDoubleScale>
             <suffix> s</suffix>
             <vTx>9</vTx>
